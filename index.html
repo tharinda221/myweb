@@ -213,25 +213,25 @@
         <div id="contact" class="contact">
             <div class="row">
                 <div class="col-sm-7 wowload fadeInLeft animated" style="visibility: visible;">
-                    <img src="map.jpg" class="img-responsive">
+                    <img src="mylocation.png" class="img-responsive">
                 </div>
                 <div class="col-sm-5 wowload fadeInRight animated" style="visibility: visible;">
                     <div class="spacer">
-                        <h2><i class="fa fa-terminal"></i> Get in touch to start your project</h2>
+                        <h2><i class="fa fa-terminal"></i> Contact me Via Email</h2>
 
                         <div class="wowload fadeInRightBig animated" style="visibility: visible;">
                             <!--<div class="form-group"><input placeholder="Name" class="form-control" type="text"></div>-->
                             <!--<div class="form-group"><input placeholder="Subject" class="form-control" type="text"></div>-->
                             <!--<div class="form-group"><textarea rows="5" placeholder="Message" class="form-control"></textarea></div>-->
                             <!--<div class="form-group"><button class="btn btn-danger"><i class="fa fa-paper-plane"></i> Send</button></div>-->
-                            <form action="//formspree.io/tharinda221@gmail.com" method="POST">
+                            <form name="contact-form" target="_blank" action="//formspree.io/tharinda221@gmail.com" method="POST">
                                 <div class="form-group"><input placeholder="Name" class="form-control" type="text"
                                                                name="name"></div>
                                 <div class="form-group"><input placeholder="email" class="form-control" type="email"
                                                                name="_replyto"></div>
                                 <div class="form-group"><input placeholder="message" class="form-control" type="text"
                                                                name="message"></div>
-                                <div class="form-group"><input class="btn btn-danger" type="submit" value="Send"></div>
+                                <div class="form-group"><input class="btn btn-danger" type="submit" value="Send" onclick="submitForm()"></div>
                             </form>
                         </div>
                     </div>
